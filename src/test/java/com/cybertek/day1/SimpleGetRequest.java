@@ -2,11 +2,12 @@ package com.cybertek.day1;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class SimpleGetRequest {
 
-    String url = "http://44.193.18.240:8000/api/spartans";
+    String myAPI = "3.89.102.26";
+    String url = "http://"+myAPI+":8000/api/spartans";
 
     @Test
     public void test1(){
