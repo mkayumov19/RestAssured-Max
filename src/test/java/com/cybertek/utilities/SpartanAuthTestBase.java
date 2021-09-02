@@ -11,5 +11,6 @@ public abstract class SpartanAuthTestBase {
         String myIP = "3.89.89.139";
         baseURI = "http://" + myIP + ":7000";
 
+
     }
 }
