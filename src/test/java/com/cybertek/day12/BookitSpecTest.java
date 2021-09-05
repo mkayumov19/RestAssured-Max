@@ -18,7 +18,6 @@ public class BookitSpecTest extends BookitTestBase {
             .then()
                     .spec(responseSpec);
 
-
     }
 
     @Test
@@ -32,8 +31,6 @@ public class BookitSpecTest extends BookitTestBase {
                 .get("/api/users/me")
                 .then()
                 .spec(userCheck("Lorette","Bradnum"));
-
-
 
     }
 }
